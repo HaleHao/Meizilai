@@ -1,0 +1,23 @@
+.main-header,
+.main-sidebar {
+    display: none;
+}
+
+.wrapper .content-wrapper,
+.wrapper .main-footer {
+    margin-left: 0;
+}
+
+#pjax-container {
+    padding-top: 0;
+}
+
+#back-to-top {
+    position: fixed;
+    display: none;
+    bottom: 70px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 18px;
+}

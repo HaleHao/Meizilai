@@ -1,0 +1,34 @@
+{
+    "name": "smallruraldog/light-box",
+    "description": "灯箱扩展",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/SmallRuralDog/light-box",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SmallRuralDog",
+            "email": "296404875@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmallRuralDog\\LightBox\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SmallRuralDog\\LightBox\\LightBoxServiceProvider"
+            ]
+
+        }
+    }
+}
